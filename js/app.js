@@ -13,7 +13,7 @@ function cargarPortafolio() {
         datos.portafolio.forEach(portafolio => {
             html += `
                 <div class="project">
-                    <img src="../../img/${portafolio.id}.jpg">
+                    <img src="./img/${portafolio.id}.jpg">
                     <div class="project-details">
                         <h3>${portafolio.nombre}</h3>
                         <p>${portafolio.desc}</p>
