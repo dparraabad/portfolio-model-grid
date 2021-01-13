@@ -1,0 +1,60 @@
+.header ul {
+  justify-content: flex-end;
+}
+
+.hero-content h1 {
+  font-size: 8rem;
+}
+
+.hero-content p {
+  font-size: 4rem;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 2rem;
+  margin: 3rem;
+}
+
+.service {
+  padding: 2rem;
+}
+
+.service h2 {
+  font-size: 3rem;
+}
+
+.service p {
+  font-size: 1.5rem;
+}
+
+.portfolio h2 {
+  text-align: left;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+  grid-auto-rows: max-content;
+}
+
+.project {
+  border-bottom: unset;
+}
+
+.project:nth-child(3) {
+  grid-row-end: span 2;
+}
+
+.project h3 {
+  text-align: left;
+}
+
+.footer {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 30%) auto;
+  text-align: left;
+}

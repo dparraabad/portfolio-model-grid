@@ -1,0 +1,22 @@
+.footer {
+  padding: 2rem;
+  background-image: url("../../img/contacto.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: var(--light);
+}
+
+.footer .widget {
+  padding: 1.5rem 0;
+}
+
+.widget h3 {
+  padding: 1rem 0;
+}
+
+.widget ul li {
+  padding: 0.5rem 0;
+  font-size: 1.3rem;
+}

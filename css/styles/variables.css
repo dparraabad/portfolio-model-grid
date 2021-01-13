@@ -1,0 +1,10 @@
+:root {
+  --principalFont: "Oswald", sans-serif;
+
+  --primaryColor: #f1a94e;
+  --secondaryColor: #44b3c2;
+
+  --light: white;
+  --gray: #5b5b5b;
+  --dark: black;
+}

@@ -1,0 +1,81 @@
+/* Hero */
+.hero {
+  display: grid;
+  height: 100vh;
+  background-image: url("../../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--light);
+}
+
+.hero-content p {
+  font-size: 2rem;
+}
+
+/* Services */
+
+.services {
+  margin: 2rem;
+  text-align: center;
+}
+
+.service {
+  padding-bottom: 2rem;
+}
+
+.service h2::after {
+  display: block;
+  width: 11rem;
+  height: 0.5rem;
+  margin: 1rem auto 0;
+  background-color: var(--primaryColor);
+  content: "";
+}
+
+.service i {
+  padding: 1rem;
+  font-size: 3rem;
+  color: var(--secondaryColor);
+}
+
+/* Portfolio */
+.portfolio {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.portfolio h2 {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: var(--primaryColor);
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--light);
+}
+
+.project {
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--dark);
+}
+
+.project:last-child {
+  border-bottom: none;
+}
+
+.project h3 {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.project p {
+  padding-bottom: 1.3rem;
+}
